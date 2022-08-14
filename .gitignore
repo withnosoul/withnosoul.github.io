@@ -13,6 +13,8 @@ node_modules
 # Docs dist directory
 /vuepress
 
+docs/.vuepress/dist
+
 # Log files
 *.log
 

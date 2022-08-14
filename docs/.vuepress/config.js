@@ -1,6 +1,13 @@
 module.exports = {
+  base: '/vuepress-blog/',
   title: '随笔',
-  base: '/blog/',
+  configureWebpack: {
+    resolve: {
+      alias: {
+        '@alias': require('path').resolve(__dirname, 'public/imgs'),
+      }
+    }
+  },
   markdown: {
     lineNumbers: true,
     extractHeaders: ['h2', 'h3'],
