@@ -16,6 +16,8 @@ git init
 git add -A
 git commit -m 'deploy'
 
+git switch gh-pages
+
 # 如果发布到 https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 git push -f git@github.com:withnosoul/withnosoul.github.io.git gh-pages
