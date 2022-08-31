@@ -11,9 +11,11 @@ node_modules
 .idea
 
 # Docs dist directory
-/vuepress
+vuepress
 
 docs/.vuepress/dist
+
+docs/.vuepress/public
 
 # Log files
 *.log

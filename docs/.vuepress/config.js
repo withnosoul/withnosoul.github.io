@@ -1,5 +1,6 @@
 module.exports = {
-  base: '/vuepress-blog/',
+  // base: '/vuepress-blog/',
+  base: '/',
   title: '随笔',
   configureWebpack: {
     resolve: {

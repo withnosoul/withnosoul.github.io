@@ -11,7 +11,7 @@ jobs:
         uses: withnosoul/vuepress-blog@master
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          TARGET_REPO: username/repo
+          TARGET_REPO: withnosoul/vuepress-blog
           TARGET_BRANCH: master
           BUILD_SCRIPT: yarn && yarn docs:build
-          BUILD_DIR: docs/.vuepress/dist
+          BUILD_DIR: docs/.vuepress/dist/
