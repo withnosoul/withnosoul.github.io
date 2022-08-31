@@ -1,5 +1,7 @@
 name: Build and Deploy
-on: [push]
+on:
+  push:
+    branches: [main]
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -8,10 +10,10 @@ jobs:
         uses: actions/checkout@master
 
       - name: deploy
-        uses: withnosoul@main
+        uses: withnosoul/withnosoul.github.io@main
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          TARGET_REPO: withnosoul
+          TARGET_REPO: withnosoul/withnosoul.github.io
           TARGET_BRANCH: main
           BUILD_SCRIPT: yarn && yarn docs:build
           BUILD_DIR: docs/.vuepress/dist/
