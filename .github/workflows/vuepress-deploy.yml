@@ -10,10 +10,8 @@ jobs:
         uses: actions/checkout@master
 
       - name: Build and Deploy
-        uses: withnosoul/withnosoul.github.io@gh-pages
+        uses: withnosoul/withnosoul.github.io@master
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          TARGET_REPO: withnosoul/withnosoul.github.io
-          TARGET_BRANCH: master
           BUILD_SCRIPT: yarn && yarn docs:build
           BUILD_DIR: docs/.vuepress/dist/
