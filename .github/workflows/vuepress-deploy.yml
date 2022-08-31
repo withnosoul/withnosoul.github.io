@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@master
 
       - name: Build and Deploy
-        uses: withnosoul/withnosoul.github.io@master
+        uses: withnosoul/withnosoul.github.io
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           TARGET_REPO: withnosoul/withnosoul.github.io
