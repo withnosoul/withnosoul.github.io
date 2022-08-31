@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@master
 
       - name: Build and Deploy
-        uses: jenkey2011/vuepress-deploy@v1.8.1
+        uses: withnosoul/withnosoul.github.io@master
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           TARGET_REPO: withnosoul/withnosoul.github.io
