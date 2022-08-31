@@ -14,6 +14,6 @@ jobs:
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           TARGET_REPO: withnosoul/withnosoul.github.io
-          TARGET_BRANCH: gh-pages
+          TARGET_BRANCH: master
           BUILD_SCRIPT: yarn && yarn docs:build
           BUILD_DIR: docs/.vuepress/dist/
