@@ -13,9 +13,9 @@ node_modules
 # Docs dist directory
 vuepress
 
-docs/.vuepress/dist
+docs/.*/dist
 
-docs/.vuepress/public
+docs/.*/public
 
 # Log files
 *.log
