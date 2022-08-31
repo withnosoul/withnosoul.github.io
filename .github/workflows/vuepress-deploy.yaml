@@ -8,10 +8,10 @@ jobs:
         uses: actions/checkout@master
 
       - name: vuepress-deploy
-        uses: withnosoul/vuepress-blog@main
+        uses: withnosoul/withnosoul.github.io@main
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          TARGET_REPO: withnosoul/vuepress-blog
+          TARGET_REPO: withnosoul/withnosoul.github.io
           TARGET_BRANCH: main
           BUILD_SCRIPT: yarn && yarn docs:build
           BUILD_DIR: docs/.vuepress/dist/
