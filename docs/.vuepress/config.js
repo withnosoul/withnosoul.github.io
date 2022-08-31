@@ -85,7 +85,7 @@ module.exports = {
       copyrightInfo: `<a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE">MIT Licence</a>`
     },
     author: {
-      name: '神马都是浮云',
+      name: '行尸走肉',
       link: 'https://github.com/',
     },
 
