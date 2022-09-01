@@ -8,10 +8,10 @@ jobs:
         uses: actions/checkout@master
 
       - name: Build and Deploy
-        uses: withnosoul/withnosoul.github.io@master
+        uses: JamesIves/github-pages-deploy-action@release/v2
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           TARGET_REPO: withnosoul/withnosoul.github.io
           TARGET_BRANCH: gh_pages
-          BUILD_SCRIPT: npm && npm run docs:build
+          BUILD_SCRIPT: npm install && npm run docs:build
           BUILD_DIR: docs/.vuepress/dist/
