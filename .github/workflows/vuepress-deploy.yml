@@ -11,7 +11,5 @@ jobs:
         uses: jenkey2011/vuepress-deploy@v1.8.1
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          TARGET_REPO: withnosoul/withnosoul.github.io
-          TARGET_BRANCH: gh_pages
           BUILD_SCRIPT: yarn && yarn build
           BUILD_DIR: docs/.vuepress/dist/
