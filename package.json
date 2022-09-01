@@ -14,10 +14,11 @@
   ],
   "author": "withnosoul",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "vuepress": "^1.9.7"
+  },
   "devDependencies": {
     "@vuepress/plugin-medium-zoom": "^1.9.7",
-    "vuepress": "^1.9.7",
     "vuepress-plugin-fulltext-search": "^2.2.1",
     "vuepress-plugin-one-click-copy": "^1.0.6",
     "vuepress-theme-vdoing": "^1.12.8"
