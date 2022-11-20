@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[54],{384:function(t,s,e){"use strict";e.r(s);var i=e(6),l=Object(i.a)({},(function(){var t=this._self._c;return t("ContentSlotsDistributor",{attrs:{"slot-key":this.$parent.slotKey}},[t("ul",[t("li",[this._v("React Native")]),this._v(" "),t("li",[this._v("Flutter")])])])}),[],!1,null,null,null);s.default=l.exports}}]);
